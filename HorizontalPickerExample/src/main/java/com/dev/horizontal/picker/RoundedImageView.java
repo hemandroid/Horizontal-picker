@@ -1,4 +1,4 @@
-package com.wefika.horizontalpicker.example;
+package com.dev.horizontal.picker;
 
 
 import android.content.Context;

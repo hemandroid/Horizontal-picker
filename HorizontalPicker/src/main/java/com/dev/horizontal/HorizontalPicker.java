@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.wefika.horizontalpicker;
+package com.dev.horizontal;
 
 import android.animation.ArgbEvaluator;
 import android.annotation.TargetApi;
@@ -979,7 +979,7 @@ public class HorizontalPicker extends View {
 
     /**
      * Calculates relative horizontal scroll position to be within our scroll bounds.
-     * {@link com.wefika.horizontalpicker.HorizontalPicker#getInBoundsX(int)}
+     * {@link com.dev.horizontal.HorizontalPicker#getInBoundsX(int)}
      *
      * @param x Relative scroll position to calculate
      * @return Current scroll position + {param x} if is within our scroll bounds, otherwise it

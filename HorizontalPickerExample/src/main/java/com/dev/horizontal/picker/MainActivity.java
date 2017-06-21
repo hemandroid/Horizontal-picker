@@ -14,16 +14,17 @@
  * limitations under the License.
  */
 
-package com.wefika.horizontalpicker.example;
+package com.dev.horizontal.picker;
 
 import android.annotation.TargetApi;
 import android.app.Activity;
 import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.Toast;
 
-import com.wefika.horizontalpicker.HorizontalPicker;
+import com.dev.horizontal.HorizontalPicker;
 
 public class MainActivity extends Activity implements HorizontalPicker.OnItemSelected, HorizontalPicker.OnItemClicked {
     HorizontalPicker picker;
@@ -39,6 +40,7 @@ public class MainActivity extends Activity implements HorizontalPicker.OnItemSel
         picker.setOnItemClickedListener(this);
         picker.setOnItemSelectedListener(this);
         picker.setBackground(new ColorCircleDrawable(Color.WHITE));
+        Log.d("picker","result");
     }
 
     @Override
