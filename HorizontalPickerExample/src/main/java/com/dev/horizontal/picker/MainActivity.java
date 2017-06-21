@@ -41,6 +41,7 @@ public class MainActivity extends Activity implements HorizontalPicker.OnItemSel
         picker.setOnItemSelectedListener(this);
         picker.setBackground(new ColorCircleDrawable(Color.WHITE));
         Log.d("picker","result");
+        Toast.makeText(this, "hello", Toast.LENGTH_SHORT).show();
     }
 
     @Override
