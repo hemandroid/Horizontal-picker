@@ -23,7 +23,7 @@
     android:background="@drawable/circle"
     tools:context="com.dev.horizontal.picker.MainActivity">
 
-    <com.devcharan.horizontalpicker.HorizontalPicker
+    <com.dev.horizontal.HorizontalPicker
         android:id="@+id/picker"
         android:layout_width="match_parent"
         android:layout_height="90dp"
